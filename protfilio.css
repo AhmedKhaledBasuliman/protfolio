@@ -1,0 +1,121 @@
+body{
+    background-color:  rgb(233, 230, 230);
+  
+    
+      background-color: rgb(243, 240, 240);
+      color: rgb(8, 8, 8);
+    
+    }
+    
+    .dark-mode {
+      background-color: rgb(70, 67, 67);
+      color: white;
+    }
+
+   
+   
+   .menu ul li {
+    
+       
+       background-color: green;
+         color:#fff;
+         display: inline-block;
+         padding: 7px;
+         margin: 4.5px;
+         border-radius:19px;
+         font-size: 22px;
+         font-weight: bold;
+         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         
+   }
+   .menu h1{
+       padding-left: 1450px;
+       margin-top: -57px;
+       color: rgb(24, 174, 211);
+       
+        font-size: 30px;
+        color: rgb(251, 251, 251);
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 20px rgb(161, 238, 18), 0 0 20px #fff, 0 0 30px #cbec36, 0 0 40px #cdeb22, 0 0 50px #bdf523, 0 0 60px #baf31e, 0 0 70px #e60073;
+        }
+        to {
+          text-shadow: 0 0 20px rgb(106, 144, 84), 0 0 30px #c5ee32, 0 0 40px #abf533, 0 0 50px #ccf02c, 0 0 60px #ddf038, 0 0 70px #baf31e, 0 0 80px #ff4da6;
+        }
+      }
+      
+   
+   .menu ul{
+   
+       text-decoration: none;
+     
+       word-spacing: 20px;
+       letter-spacing:0px ;
+    
+   
+   
+   } 
+   .menu ul li:hover{
+          background-color: rgb(252, 252, 253);
+          color: green;
+   }
+   .menu{
+       background-color: green;
+       border-radius:19px;
+       height: 49px;
+       
+   }
+   .span1{
+      
+      height: 90px;
+      width:90px ;
+      background-color:rgb(104, 52, 52) ;
+      border-radius: 50%;
+      display: inline-block;
+   }
+   .zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; /* Animation */
+    max-width: 600px;
+    height: 200px;
+    margin: 180px 0px 0px 500px  ;
+    border-radius: 10px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+ .zoom h{
+     font-size: 25px;
+     color: #fff;
+ }
+.zoom h1{
+  font-family:sans-serif;
+}
+.moon{
+  position: relative;
+  width: 400px;
+  height: 200px;
+} 
+
+.moon{
+  position: absolute;
+  top: 28px;
+  right: 0;
+  max-width: 40px;
+  height: 200px;
+  left: 1400px;
+}
+
+
+.zomm svg{
+  margin-left: 180px;
+  margin-bottom: -100px;
+}
